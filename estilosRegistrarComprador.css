@@ -1,0 +1,57 @@
+body{
+    background-image: url("imagenFondo.jpg");
+    background-size: cover;
+    background-position: center;
+    overscroll-behavior: none;
+}
+
+.Alfashop {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+/*Tabla de registrar comprador*/
+.tabla{
+    width: 20%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.tabla th,
+.tabla td {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tabla th {
+    background-color: #333;
+    color: white;
+}
+
+.tabla input[type="text"],
+.tabla input[type="password"],
+.tabla button {
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.tabla button:hover {
+    background-color: #45a049;
+}
+
+.tabla h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}

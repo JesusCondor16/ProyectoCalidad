@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Alfashop {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff; /* Color llamativo */
+    text-shadow: 3px 3px 4px rgb(95, 21, 3);
+}
+
+.tabla_container{
+    margin-bottom: 50px;
+}
+
+.tabla{
+    width: 20%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tabla td {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tabla input[type="text"],
+.tabla input[type="password"],
+.tabla button {
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.tabla button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabla button:hover {
+    background-color: #37803b;
+}
+
+.tabla h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
