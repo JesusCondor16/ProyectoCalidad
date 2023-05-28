@@ -37,12 +37,12 @@ document.getElementById('formulario_register').addEventListener('submit', functi
     };
   
     // Enviar los datos al back-end 
-    enviarDatosAlBackend(formData);
-    enviarDatosAlBackend(formData1);
+    enviarDatosRegistro(formData);
+    enviarDatosIngresar(formData1);
   });
   /*Para enviar para el formulario registrar*/
-  function enviarDatosAlBackend(formData) {
-    fetch('recepcionDatos', {
+  function enviarDatosRegistro(formData) {
+    fetch('recepcionDatosRegistro', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -62,8 +62,8 @@ document.getElementById('formulario_register').addEventListener('submit', functi
   }
 
   /*Para el formulario ingresar*/
-  function enviarDatosAlBackend(formData1) {
-    fetch('recepcionDatos', {
+  function enviarDatosIngresar(formData1) {
+    fetch('recepcionDatosIngresar', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
