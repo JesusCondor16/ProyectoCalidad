@@ -20,8 +20,7 @@ document.getElementById('formulario_register').addEventListener('submit', functi
     // Obtener los valores de los campos del formulario
     const nombre = document.getElementById('nombre').value;
     const apellido = document.getElementById('apellido').value;
-    const tipoDocumento = document.getElementById('tipoDocumento').value;
-    const documentNumber = document.getElementById('documentNumber').value;
+    const telefono= document.getElementById('telefono').value;
     const correo_electronico = document.getElementById('correo_electronico').value;
     const contrasena = document.getElementById('contrasena').value;
   
@@ -30,8 +29,7 @@ document.getElementById('formulario_register').addEventListener('submit', functi
     const formData = {
       nombre: nombre,
       apellido: apellido,
-      tipoDocumento:tipoDocumento,
-      documentNumber:documentNumber,
+      telefono:telefono,
       correo_electronico: correo_electronico,
       contrasena: contrasena,
     };

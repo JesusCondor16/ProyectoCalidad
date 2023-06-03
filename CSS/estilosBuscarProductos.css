@@ -1,0 +1,114 @@
+body{
+    background-image: url("../Imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+table,th,td{
+    
+    border: 1px solid black;
+    border-collapse:collapse;
+    text-align: left;
+}
+
+.btnBuscar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnSeleccionar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnGestionar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnRealizarPago{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnNotificar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnCancelar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnRevisar{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.btnRealizarComentario{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10 px 20px;
+    text-align:center;
+    text-decoration: none;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 4px;
+}

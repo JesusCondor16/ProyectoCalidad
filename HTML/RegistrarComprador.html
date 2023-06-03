@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alphashop</title>
 
-    <link rel="stylesheet" href="estilosCuenta.css">
-    <script src="signup.js"></script>
+    <link rel="stylesheet" href="../CSS/estilosRegistrarComprador.css">
+    <script src="../JS/signup.js"></script>
 
 </head>
 <body>
@@ -19,7 +19,7 @@
         <table class="tabla">
             <tr>
                 <td class="imagen">
-                    <img src="usuario.png">
+                    <img src="../Imagenes/usuario.png">
                 </td>
             </tr>
             <tr>
@@ -27,11 +27,11 @@
                     <h2>Registrar comprador</h2>
                     <input type="text" id="names" placeholder="Nombres">
                     <input type="text" id="lastNames" placeholder="Apellidos">
-                    <input type="text" id="documentType" placeholder="Tipo de documento">
-                    <input type="text" id="documentNumber" placeholder="Numero de documento">
                     <input type="text" id="email" placeholder="Correo electronico">
                     <input type="password" id="password" placeholder="Contraseña">
+                    <input type="number" id="number" placeholder="Telefono">
                     <button id="registerButton" onclick="validarFormulario(event)">Regístrarse</button>
+                    
                 </td>
             </tr>
         </table>
@@ -39,6 +39,6 @@
     
     
 </body>
-<script src="validarRegistro.js"></script>
-<script src="enviarDatos.js"></script>
+<script src="../JS/validarRegistro.js"></script>
+<script src="../JS/envioDatos.js"></script>
 </html>
