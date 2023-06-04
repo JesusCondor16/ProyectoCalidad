@@ -5,53 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/estilosBuscarProductos.css">
     <title>Alfashop</title>
-    <head>
-        <body>
-            <table>
-                <tr>
-                    <th>Lista de opciones</th>
-                </tr>
-                <tr>
-                    <th>Alfashop</th>
-                </tr>
-                <tr>
-                    <th><button class="btnBuscar">Buscar producto</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnSeleccionar">Seleccionar producto</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnGestionar">Gestionar carrito de compras</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnRealizarPago">Realizar pago</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnNotificar">Notificar compra</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnCancelar">Cancelar compra</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnRevisar">Revisar historial de compra</button></th>
-                </tr>
-                <tr>
-                    <th><button class="btnRealizarComentario">Realizar comentarios</button></th>
-                </tr>
-
-            </table>
-
-            <div class="tabla_container">
-                <table class="tabla">
-                    <tr>
-                        <td class="digitar_producto">
-                            <input type="text" id="producto" placeholder="Digitar producto">
-                        </td>
-                    </tr>
-                </table>
+</head>
+<body>
+    <header>
+        <section class="cabecera_superior">
+            <h1>Alfashop</h1>
+            <img src="../Imagenes/logo.png" alt="Logo">
+        </section>
+        <section class="cabecera_inferior">
+            <div class="barra_busqueda">
+                <input type="text" id="producto" placeholder="Buscar producto">
+                <button class="btnBuscar">Buscar</button>
             </div>
-            <Button  >Seleccionar producto</Button>
-            <img src="../Imagenes/usuario.png">
-        </body>
-    </head>
+            <button class="btnUsuario">Usuario</button>
+        </section>
+    </header>
+
+    <main>
+        <div class="categoria">
+            <h2>Categoría 1</h2>
+            <div class="productos_grupo">
+                <a href="pagina-producto1.html" class="producto">
+                    <img src="imagen1.jpg" alt="Producto 1">
+                    <div class="descripcion">
+                        <h3>Producto 1</h3>
+                        <div class="precio">$10.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto2.html" class="producto">
+                    <img src="imagen2.jpg" alt="Producto 2">
+                    <div class="descripcion">
+                        <h3>Producto 2</h3>
+                        <div class="precio">$15.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto1.html" class="producto">
+                    <img src="imagen1.jpg" alt="Producto 1">
+                    <div class="descripcion">
+                        <h3>Producto 1</h3>
+                        <div class="precio">$10.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto2.html" class="producto">
+                    <img src="imagen2.jpg" alt="Producto 2">
+                    <div class="descripcion">
+                        <h3>Producto 2</h3>
+                        <div class="precio">$15.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto1.html" class="producto">
+                    <img src="imagen1.jpg" alt="Producto 1">
+                    <div class="descripcion">
+                        <h3>Producto 1</h3>
+                        <div class="precio">$10.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto2.html" class="producto">
+                    <img src="imagen2.jpg" alt="Producto 2">
+                    <div class="descripcion">
+                        <h3>Producto 2</h3>
+                        <div class="precio">$15.99</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2>Categoría 2</h2>
+            <div class="productos_grupo">
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="categoria">
+            <h2>Categoría 3</h2>
+            <div class="productos_grupo">
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto3.html" class="producto">
+                    <img src="imagen3.jpg" alt="Producto 3">
+                    <div class="descripcion">
+                        <h3>Producto 3</h3>
+                        <div class="precio">$9.99</div>
+                    </div>
+                </a>
+                <a href="pagina-producto4.html" class="producto">
+                    <img src="imagen4.jpg" alt="Producto 4">
+                    <div class="descripcion">
+                        <h3>Producto 4</h3>
+                        <div class="precio">$12.99</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="informacion">
+            <p>Contacto: info@minimarket.com</p>
+            <p>Dirección: Calle Principal #123</p>
+        </div>
+        <button class="btnVolverArriba"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
